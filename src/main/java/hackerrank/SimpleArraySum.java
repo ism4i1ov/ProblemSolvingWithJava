@@ -1,3 +1,5 @@
+package hackerrank;
+
 public class SimpleArraySum {
     public static void main(String[] args) {
         System.out.println(simpleArraySum(new int[] {1,2,3,4,10,11}));
