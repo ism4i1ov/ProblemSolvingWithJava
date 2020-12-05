@@ -8,7 +8,7 @@ public class BeautifulDaysAtTheMovies {
     static int beautifulDays(int i, int j, int k) {
         int count = 0;
         for (int l = i; l <= j; l++) {
-            StringBuilder sb = new StringBuilder(l);
+            StringBuilder sb = new StringBuilder();
             sb.append(l);
             int reverse = Integer.parseInt(sb.reverse().toString());
             if (Math.abs(l - reverse) % k == 0 || l -  reverse == 0) {
